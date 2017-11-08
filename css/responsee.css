@@ -15,9 +15,11 @@ body {
 	background:none repeat scroll 0 0 #d3d3d3;
 	font-size:100%;
 	margin:0;
-        <-- font-family:OpenSansL; -->
-	<-- font-family:Arial; -->
-	font-family: 'Roboto', sans-serif;
+        /**
+	font-family:OpenSansL;
+	font-family:Arial;
+	font-family: 'Roboto', sans-serif; -->
+	**/
   color:#444;
   }
 h1, h2, h3, h4, h5, h6 {
