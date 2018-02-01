@@ -1,11 +1,9 @@
 body {
 	background: none repeat scroll 0 0 #0b192f;
 	color: #fff;
-	/**
-	font-family: OpenSansL;
+	/* font-family: OpenSansL;
 	font-family: Arial;
-	font-family: 'Roboto', sans-serif;
-	**/
+	font-family: 'Roboto', sans-serif; */
 	font-weight: 300;
 }
 nav {
@@ -48,11 +46,11 @@ header h1 {
 .social i {
 	color: #637693;
 	transition-duration: 0.20s;
-    /*transition: color 0.20s linear 0s;*/
-	/*-o-transition: color 0.20s linear 0s;
+  /* transition: color 0.20s linear 0s;
+	-o-transition: color 0.20s linear 0s;
 	-ms-transition: color 0.20s linear 0s;
 	-moz-transition: color 0.20s linear 0s;
-	-webkit-transition: color 0.20s linear 0s;*/
+	-webkit-transition: color 0.20s linear 0s; */
 }
 .social i:hover {
 	color: #fff;
@@ -64,11 +62,11 @@ section p {
 	display: block;
 	margin: 0;
 	opacity: 1;
-    /*transition: opacity 0.20s linear 0s;*/
-	/*-o-transition: opacity 0.20s linear 0s;
+  /* transition: opacity 0.20s linear 0s;
+	-o-transition: opacity 0.20s linear 0s;
 	-ms-transition: opacity 0.20s linear 0s;
 	-moz-transition: opacity 0.20s linear 0s;
-	-webkit-transition: opacity 0.20s linear 0s;*/
+	-webkit-transition: opacity 0.20s linear 0s; */
 }
 #home-section .post-image img:hover, #article-section.archive .post-image img:hover {
     opacity: 0.5;
@@ -83,13 +81,13 @@ section p {
 	font-weight: 100;
 	line-height: 1em;
 	margin: 0 0 0.3125em 0;
-  opacity:1;
+  opacity: 1;
 	padding: 0;
-  /*transition: opacity 0.20s linear 0s;*/
-	/*-o-transition: opacity 0.20s linear 0s;
+  /*transition: opacity 0.20s linear 0s;
+	-o-transition: opacity 0.20s linear 0s;
 	-ms-transition: opacity 0.20s linear 0s;
 	-moz-transition: opacity 0.20s linear 0s;
-	-webkit-transition: opacity 0.20s linear 0s;*/
+	-webkit-transition: opacity 0.20s linear 0s; */
 }
 #home-section .post-text h2:hover {
 	opacity:0.6;
@@ -231,12 +229,12 @@ a.continue-reading, form.customform button {
 	height: auto;
 	margin-top: 1.25em;
 	padding: 0.625em 1.25em;
-    transition-duration: 0.20s;
-	/*transition: background 0.20s linear 0s;*/
-	/*-o-transition: background 0.20s linear 0s;
+  transition-duration: 0.20s;
+	/* transition: background 0.20s linear 0s;
+	-o-transition: background 0.20s linear 0s;
 	-ms-transition: background 0.20s linear 0s;
 	-moz-transition: background 0.20s linear 0s;
-	-webkit-transition: background 0.20s linear 0s;*/
+	-webkit-transition: background 0.20s linear 0s; */
 }
 form.customform button {
 	margin-top: 0;

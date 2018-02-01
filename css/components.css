@@ -1,57 +1,57 @@
 /* Custom forms */
 form.customform input, form.customform select, form.customform textarea, form.customform button {
- font-size:0.9em;
- font-family:inherit;
- margin-bottom:1.25em;
-} 
-form.customform input, form.customform select {height: 2.7em;}
-form.customform input, form.customform textarea, form.customform select { 
- background: none repeat scroll 0 0 #F5F5F5;
- transition: background 0.20s linear 0s;
- -o-transition: background 0.20s linear 0s;
- -ms-transition: background 0.20s linear 0s;
- -moz-transition: background 0.20s linear 0s;
- -webkit-transition: background 0.20s linear 0s;
+  font-size:0.9em;
+  font-family:inherit;
+  margin-bottom:1.25em;
 }
-form.customform input:hover, form.customform textarea:hover, form.customform select:hover, form.customform input:focus, form.customform textarea:focus, form.customform select:focus {background: none repeat scroll 0 0 #fff;}
+form.customform input, form.customform select { height: 2.7em; }
 form.customform input, form.customform textarea, form.customform select {
- background: none repeat scroll 0 0 #F5F5F5;
- border: 1px solid #E0E0E0;
- padding: 0.625em;
- width: 100%;
+  background: none repeat scroll 0 0 #F5F5F5;
+  transition: background 0.20s linear 0s;
+  -o-transition: background 0.20s linear 0s;
+  -ms-transition: background 0.20s linear 0s;
+  -moz-transition: background 0.20s linear 0s;
+  -webkit-transition: background 0.20s linear 0s;
+}
+form.customform input:hover, form.customform textarea:hover, form.customform select:hover, form.customform input:focus, form.customform textarea:focus, form.customform select:focus { background: none repeat scroll 0 0 #fff; }
+form.customform input, form.customform textarea, form.customform select {
+  background: none repeat scroll 0 0 #F5F5F5;
+  border: 1px solid #E0E0E0;
+  padding: 0.625em;
+  width: 100%;
 }
 form.customform input[type="file"] {
- border: 1px solid #E0E0E0;
- height: auto;
- max-height: 2.7em;
- min-height: 2.7em;
- padding: 0.4em;
- width: 100%;
+  border: 1px solid #E0E0E0;
+  height: auto;
+  max-height: 2.7em;
+  min-height: 2.7em;
+  padding: 0.4em;
+  width: 100%;
 }
 form.customform input[type="radio"], form.customform input[type="checkbox"] {
- margin-right: 0.625em;
- width:auto;
- padding:0;
- height:auto;
+  margin-right: 0.625em;
+  width:auto;
+  padding:0;
+  height:auto;
 }
-form.customform option {padding: 0.625em;}
-form.customform select[multiple="multiple"] {height: auto;}
+form.customform option { padding: 0.625em; }
+form.customform select[multiple="multiple"] { height: auto; }
 form.customform button {
- width: 100%;
- background: none repeat scroll 0 0 #444444;
- border: 0 none;
- color: #FFFFFF;
- height: 2.7em;
- padding: 0.625em;
- cursor:pointer;
- width: 100%;
- transition: background 0.20s linear 0s;
- -o-transition: background 0.20s linear 0s;
- -ms-transition: background 0.20s linear 0s;
- -moz-transition: background 0.20s linear 0s;
- -webkit-transition: background 0.20s linear 0s;
-}	
-form.customform button:hover {background: none repeat scroll 0 0 #666666;}
+  width: 100%;
+  background: none repeat scroll 0 0 #444444;
+  border: 0 none;
+  color: #FFFFFF;
+  height: 2.7em;
+  padding: 0.625em;
+  cursor:pointer;
+  width: 100%;
+  transition: background 0.20s linear 0s;
+  -o-transition: background 0.20s linear 0s;
+  -ms-transition: background 0.20s linear 0s;
+  -moz-transition: background 0.20s linear 0s;
+  -webkit-transition: background 0.20s linear 0s;
+}
+form.customform button:hover { background: none repeat scroll 0 0 #666666; }
 /* Icon font - MFG labs */
 @font-face {
   font-family: 'mfg';
@@ -70,8 +70,8 @@ i, .icon {
   font-weight: normal;
   color:#e3e3e3;
 }
-.icon2x {font-size: 2em;}
-.icon3x {font-size: 3em;}
+.icon2x { font-size: 2em; }
+.icon3x { font-size: 3em; }
 .gradient {
   color: #999999;
   text-shadow: 1px 1px 1px rgba(27, 27, 27, 0.19);
