@@ -13,14 +13,14 @@ jQuery(document).ready(function($) {
     $(element).closest('li').children('a').append(content);
   });
   $('.aside-nav > ul > li:has(ul)').addClass('aside-submenu');
-  $('.aside-nav > ul ul > li:has(ul)').addClass('aside-sub-submenu'); 
-    $('.aside-nav > ul > li.aside-submenu > a').click(function() {  
-    $('.aside-nav ul li.aside-submenu:hover > ul').toggleClass('show-aside-ul', 'slow'); 
-  }); 
-  $('.aside-nav > ul ul > li.aside-sub-submenu > a').click(function() { 
+  $('.aside-nav > ul ul > li:has(ul)').addClass('aside-sub-submenu');
+    $('.aside-nav > ul > li.aside-submenu > a').click(function() {
+    $('.aside-nav ul li.aside-submenu:hover > ul').toggleClass('show-aside-ul', 'slow');
+  });
+  $('.aside-nav > ul ul > li.aside-sub-submenu > a').click(function() {
     $('.aside-nav ul ul li:hover > ul').toggleClass('show-aside-ul', 'slow');
   });
-  //Responsee nav   
+  //Responsee nav
   $('.top-nav > ul > li ul').each(function(index, element) {
     var count = $(element).find('li').length;
     var content = '<span class="count-number"> ' + count + '</span>';
@@ -29,15 +29,15 @@ jQuery(document).ready(function($) {
   $('.top-nav > ul li:has(ul)').addClass('submenu');
   $('.top-nav > ul ul li:has(ul)').addClass('sub-submenu');
   $('.top-nav > ul ul li:has(ul)').removeClass('submenu');
-  $('.top-nav > ul li.submenu > a').click(function() {  
-    $('.top-nav > ul li.submenu:hover > ul').toggleClass('show-ul', 'slow'); 
-  }); 
-  $('.top-nav > ul ul > li.sub-submenu > a').click(function() { 
-    $('.top-nav ul ul li:hover > ul').toggleClass('show-ul', 'slow');   
+  $('.top-nav > ul li.submenu > a').click(function() {
+    $('.top-nav > ul li.submenu:hover > ul').toggleClass('show-ul', 'slow');
   });
-  $('.nav-text').click(function() { 
+  $('.top-nav > ul ul > li.sub-submenu > a').click(function() {
+    $('.top-nav ul ul li:hover > ul').toggleClass('show-ul', 'slow');
+  });
+  $('.nav-text').click(function() {
     $('.top-nav > ul').toggleClass('show-menu', 'slow');
-  }); 
+  });
   //Custom forms
   $(function() {
     var input = document.createElement("input");
