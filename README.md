@@ -1,8 +1,8 @@
-# martindes01.github.io
+# martindes01.github.io-2017-11-08
 
 ## About
 
-This is an experimental static blog deployed to my GitHub Pages user site at [martindes01.github.io](https://martindes01.github.io).
+This is an experimental static blog originally deployed to my GitHub Pages user site at [martindes01.github.io](https://martindes01.github.io).
 
 ## Getting Started
 
@@ -16,8 +16,8 @@ This can be achieved using the [Python 3](https://www.python.org/) `http.server`
 Simply clone the source from this repository.
 
 ```shell
-git clone https://github.com/martindes01/martindes01.github.io.git
-cd martindes01.github.io
+git clone https://github.com/martindes01/martindes01.github.io-2017-11-08.git
+cd martindes01.github.io-2017-11-08
 ```
 
 ## Usage
